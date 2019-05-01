@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="https://waymans.github.io/apps/css/min.css">-->
+  </head>
+  <body class="menlo">
+    <header>
+      <h1>Send a text!</h1>
+    </header>
+
+    <main>
+      <form method="post" action="/send">
+        <input class="input" type="text" name="text" maxlength="100" required>
+        <input class="button bg-blue menlo" type="submit" value="Submit">
+      </form>
+    </main>
+    
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+    <script src="/client.js" defer></script>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
